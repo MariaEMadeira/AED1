@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que converte uma temperatura Farenheit em Celsius
+int main()
+{
+    //Atribuição de fórmulas
+    float tfar,tcelsius;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui uma temperatura em farenheit para converte la em celsius\n");
+    //O que será lido e armazenado
+    scanf("%f", &tfar);
+
+    //Atribuição de fórmula
+    tcelsius=(tfar-32)/1.8;
+
+    //O que será printado
+    printf("A temperatura em celsius eh %f\n", tcelsius);
+
+    return 0;
+}
