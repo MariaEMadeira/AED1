@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que calcula a área de um quadrado de lado 7
+int main()
+{
+    //Atribuição de variáveis
+    int lado, area;
+    lado=7;
+    area= pow(lado,2);
+    printf("A area eh de %d\n", area);
+    return 0;
+}
