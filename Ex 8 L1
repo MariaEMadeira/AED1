@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que calcula o salário de um funcionário
+int main()
+{
+    //Atribuição de variáveis
+    float nhoras,salariomin,vhora,salb,salli,imposto;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui o numero de horas trabalhadas e o salario minimo respectivamente:\n");
+
+    //O que será lido e armazenado
+    scanf(" %f %f", &nhoras, &salariomin);
+
+    //Atribuição de fórmulas
+    vhora=salariomin*0.1;
+    salb=nhoras*vhora;
+    imposto=salb*0.05;
+    salli=salb-imposto;
+
+    //O que será printado
+    printf("O valor a receber eh: %2.f\n", salli);
+    return 0;
+}
