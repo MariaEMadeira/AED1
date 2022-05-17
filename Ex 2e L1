@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que calcula o perímetro de um círculo de raio 5
+int main()
+{
+    //Atribuição de variáveis, valores e fórmulas
+    float raio,pi,perimetro;
+    raio=5;
+    pi=3.14;
+    perimetro=2*pi*raio;
+    //O que será printado
+    printf("O perimetro deste circulo eh de: %f\n",perimetro);
+    return 0;
+}
