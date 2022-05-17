@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que recebe 3 notas e printa soma, média e o produto das notas
+int main()
+{
+    //Atribuição de variáveis
+    float n1,n2,n3,soma,media,produto;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui o valor das notas 1,2 e 3 respectivamente");
+    //O que será lido e armazenado
+    scanf("%f %f %f", &n1, &n2, &n3);
+
+    //Atribuição de fórmulas
+    soma=n1+n2+n3;
+    produto=n1*n2*n3;
+    media=soma/3;
+
+    //O que será printado
+    printf("A soma eh %f , o produto eh %f e a media eh %f\n", soma, produto, media);
+    return 0;
+}
