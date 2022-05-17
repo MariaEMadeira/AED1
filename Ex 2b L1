@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que calcula o perímetro de um quadrado de lado 5
+int main()
+{
+    //Atribuição de variáveis
+    int lado, perimetro;
+    lado=5;
+    perimetro=lado*4;
+
+    printf("O valor do perimetro eh de:%d\n", perimetro);
+    return 0;
+}
