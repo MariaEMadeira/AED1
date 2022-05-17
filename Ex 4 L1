@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que recebe um número e printa seu sucessor
+int main()
+{
+    //Atribuição de variáveis e fórmula
+    int numero,sucessor;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui um numero para que seja exibido seu sucessor");
+    //O que será lido
+    scanf("%d", &numero);
+
+    //Atribuição de fórmula
+    sucessor=numero+1;
+    printf("\nO sucessor de %d eh %d",numero, sucessor);
+    return 0;
+}
