@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este programa calcula rendimentos de investimento
+int main()
+{
+    //Atribuição de variáveis
+    float montante,capital,porcentagem,tempo,rendimento;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui o valor do capital, a porcentagem em decimal e o tempo do investimento em meses respectivamente\n");
+
+    //O que será lido e armazenado
+    scanf(" %f %f %f", &capital, &porcentagem, &tempo);
+
+    //Atribuição de fórmulas
+    montante=capital*pow((1+porcentagem),tempo);
+    rendimento=montante-capital;
+
+    //O que será printado
+    printf("O valor do montante eh %2.f e o rendimento eh %2.f\n", montante, rendimento);
+    return 0;
+}
