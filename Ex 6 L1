@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Este é um programa que calcula IMC
+int main()
+{
+    //Atribuição de variáveis
+    float altura,peso,imc;
+
+    //O que será exibido inicialmente
+    printf("\nInsira aqui a sua altura em metros e seu peso em kg respectivamente\n");
+    //O que será lido e armazenado
+    scanf("%f %f", &altura, &peso);
+
+    //Atribuição de fórmula
+    imc=peso/pow(altura,2);
+
+    //O que será printado
+    printf("O imc eh de %f\n", imc);
+    return 0;
+}
